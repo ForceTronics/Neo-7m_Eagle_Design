@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6808,10 +6808,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <wire x1="-213.36" y1="-53.34" x2="-203.2" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="-203.2" y="-53.34"/>
 <pinref part="GND" gate="1" pin="GND"/>
-<pinref part="VIN_5V_TO_12V" gate="DCJACK" pin="GND2"/>
-<wire x1="-347.98" y1="-38.1" x2="-347.98" y2="-60.96" width="0.1524" layer="91"/>
 <pinref part="N3" gate="P1" pin="S"/>
-<wire x1="-350.52" y1="-60.96" x2="-347.98" y2="-60.96" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="ADJ"/>
 <wire x1="-284.48" y1="-53.34" x2="-284.48" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
@@ -6822,6 +6819,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <junction x="-312.42" y="-53.34"/>
 <wire x1="-304.8" y1="-53.34" x2="-284.48" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="-304.8" y="-53.34"/>
+<wire x1="-350.52" y1="-60.96" x2="-347.98" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="-347.98" y1="-60.96" x2="-284.48" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="-284.48" y1="-60.96" x2="-284.48" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="-284.48" y1="-53.34" x2="-254" y2="-53.34" width="0.1524" layer="91"/>
@@ -6852,7 +6850,6 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <wire x1="-121.92" y1="-66.04" x2="-203.2" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="-48.26" x2="-121.92" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="-121.92" y1="-48.26" x2="-121.92" y2="-66.04" width="0.1524" layer="91"/>
-<junction x="-347.98" y="-60.96"/>
 <junction x="-284.48" y="-53.34"/>
 <junction x="-254" y="-53.34"/>
 <junction x="-246.38" y="-53.34"/>
@@ -6873,6 +6870,12 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <wire x1="-147.32" y1="-22.86" x2="-139.7" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="-22.86" x2="-106.68" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="-139.7" y="-22.86"/>
+<pinref part="VIN_5V_TO_12V" gate="DCJACK" pin="GND2"/>
+<pinref part="VIN_5V_TO_12V" gate="DCJACK" pin="GND1"/>
+<wire x1="-347.98" y1="-38.1" x2="-347.98" y2="-41.91" width="0.1524" layer="91"/>
+<wire x1="-347.98" y1="-41.91" x2="-347.98" y2="-60.96" width="0.1524" layer="91"/>
+<junction x="-347.98" y="-41.91"/>
+<junction x="-347.98" y="-60.96"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="G1"/>

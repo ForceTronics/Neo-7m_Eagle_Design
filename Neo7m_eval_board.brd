@@ -1394,7 +1394,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Specifications:
 &lt;li&gt;Area: 3.0mm x 2.5mm&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=â€http://cdn.sparkfun.com/datasheets/Wireless/Antennas/RF-001001.pdfâ€&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”http://cdn.sparkfun.com/datasheets/Wireless/Antennas/RF-001001.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Example device(s):
 &lt;ul&gt;&lt;li&gt;U.FL&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
@@ -1494,7 +1494,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
-Die Standard-Design-Rules sind so gewÃ¤hlt, dass sie fÃ¼r 
+Die Standard-Design-Rules sind so gewählt, dass sie für 
 die meisten Anwendungen passen. Sollte ihre Platine 
 besondere Anforderungen haben, treffen Sie die erforderlichen
 Einstellungen hier und speichern die Design Rules unter 
@@ -1871,7 +1871,6 @@ design rules under a new name.</description>
 <contactref element="C12" pad="2"/>
 <contactref element="C13" pad="2"/>
 <contactref element="C14" pad="2"/>
-<contactref element="VIN_5V_TO_12V" pad="GND2"/>
 <contactref element="N3" pad="P1"/>
 <contactref element="IC1" pad="1"/>
 <contactref element="C7" pad="2"/>
@@ -1918,6 +1917,8 @@ design rules under a new name.</description>
 <via x="5.5" y="23.25" extent="1-16" drill="0.35"/>
 <contactref element="U$1" pad="G2"/>
 <contactref element="U$1" pad="G1"/>
+<contactref element="VIN_5V_TO_12V" pad="GND2"/>
+<contactref element="VIN_5V_TO_12V" pad="GND1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="IC1" pad="2"/>
